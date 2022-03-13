@@ -25,6 +25,7 @@ Inquirer
        
 ## Contributors
 Erna Lukač
+worked with CJ Sanders
     
 ## Tests
 None

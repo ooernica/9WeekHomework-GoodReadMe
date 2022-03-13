@@ -20,17 +20,17 @@ inquirer
         },
         {
             type: 'input',
-            message: 'description',
+            message: 'Enter the description of your project and user story',
             name: 'description',
         },
         {
             type: 'input',
-            message: 'installation',
+            message: 'Add any installation instructions or depedencies',
             name: 'installation',
         },
         {
             type: 'input',
-            message: 'What is the project used for?',
+            message: 'Add in the deployed link',
             name: 'projectUse',
         },
         {
@@ -51,22 +51,22 @@ inquirer
         },
         {
             type: 'input',
-            message: 'What tests?',
+            message: 'What tests will be used?',
             name: 'test',
         },
         {
             type: 'input',
-            message: 'Contribution Guidelines?',
+            message: 'Add in any contributors?',
             name: 'contributors',
         },
         {
             type: 'input',
-            message: 'GitHub User Name?',
+            message: 'Enter GitHub username',
             name: 'gitHub',
         },
         {
             type: 'input',
-            message: 'Email Address/Contact info?',
+            message: 'Enter email address',
             name: 'contact',
         },
     ])

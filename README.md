@@ -1,7 +1,9 @@
 # ReadMe Generator
 
    ## Description / User Story
-    A ReadMe Generaterator App, it is made to streamline the readMe process. Sometimes it's tedious to make readmes. This projects allows users to know what your project is 
+    A ReadMe Generaterator App, it is made to streamline the Read Me making process. Sometimes it's tedious to make ReadMes. 
+    But they are necessary. This projects prompts user to fill in the necessary areas, so that users to know what 
+    your project is, how to get it going, and make it and accessible.
     
    ## Table of Contents
     - [Dependencies](#Dependencies)

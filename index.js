@@ -89,38 +89,38 @@ function gitLicense(answers) {
 
 function makeReadMe(answers) {
     fs.writeFile('README.md',
-    `# ${answers.name}
-    ${answers.icon}
+`# ${answers.name}
+${answers.icon}
     
-    ## Description / User Story
-    ${answers.description}
+## Description / User Story
+${answers.description}
     
-    ## Table of Contents
-    - [Dependencies](#Dependencies)
-    - [Deployed Link/App in Use](#Deployed Link/App in Use)
-    - [License](#License)
-    - [Contributors](#Contributors)
-    - [Tests](#Tests)
-    - [Questions](#Questions)
+## Table of Contents
+- [Dependencies](#Dependencies)
+- [Deployment](#Deployment)
+- [License](#License)
+- [Contributors](#Contributors)
+- [Tests](#Tests)
+- [Questions](#Questions)
     
-    ## Depedencies
-    ${answers.installation}
+## Depedencies
+${answers.installation}
           
-    ## Deployed Link/App in Use
+## Deployment
     ${answers.projectUse}
           
-    ## License
-    ${answers.icon}  
-    ${answers.license} - Click [here](${answers.link}) for more information.
+## License
+${answers.icon}  
+${answers.license} - Click [here](${answers.link}) for more information.
           
-    ## Contributors
-    ${answers.contributors}
+## Contributors
+${answers.contributors}
     
-    ## Tests
-    ${answers.test}
+## Tests
+${answers.test}
     
-    ## Questions
-    Check out more of my work at: [${answers.gitHub}](https://www.github.com/${answers.gitHub})  
-    Questions/Comments? [Contact Me](mailto:${answers.contact})`,
-        err => err ? console.error(err) : console.log('Success'));
+## Questions
+Check out more of my work at: [${answers.gitHub}](https://www.github.com/${answers.gitHub})  
+Questions/Comments? [Contact Me](mailto:${answers.contact})`,
+    err => err ? console.error(err) : console.log('Success'));
 }

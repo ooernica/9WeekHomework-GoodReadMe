@@ -9,7 +9,7 @@ going, and make it and accessible.
     
 ## Table of Contents
 - [Dependencies](#Dependencies)
-- [Deployed Link/App in Use](#Deployed Link/App in Use)
+- [Deployment](#Deployment)
 - [License](#License)
 - [Contributors](#Contributors)
 - [Tests](#Tests)
@@ -18,7 +18,7 @@ going, and make it and accessible.
 ## Depedencies
 Inquirer
           
-## Deployed Link/App in Use
+## Deployment
 ![Prompts](https://user-images.githubusercontent.com/91104984/158043045-3cfaf0b6-6c72-4201-bf20-50f50578657a.png)
 ![success](https://user-images.githubusercontent.com/91104984/158043050-be2591d4-d85a-44a3-bca7-28189dd30925.png)
 ![read me](https://user-images.githubusercontent.com/91104984/158043060-dddd5bcd-b333-4306-87ab-223c98ffcad4.png)
